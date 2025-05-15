@@ -12,7 +12,11 @@
 
 /* Sections style */
 @import url('./header.css');
-@import url('./vite-promo.css');
-@import url('./badges.css');
-@import url('./back-link.css');
+@import url('./hero-banner.css');
+@import url('./features.css');
+@import url('./team.css');
+@import url('./breath-in-the-space.css');
+@import url('./why-yoga-helps-you.css');
+@import url('./testimonials.css');
+@import url('./pricing-plans.css');
 @import url('./footer.css');
