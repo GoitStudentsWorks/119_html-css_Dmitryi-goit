@@ -1,6 +1,5 @@
 .gallery__container {
   padding: 64px 20px;
-  border: purple solid 3px;
 }
 
 @media screen and (min-width: 768px) {
