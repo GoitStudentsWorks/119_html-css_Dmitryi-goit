@@ -51,15 +51,23 @@
 
 @media only screen and (min-width: 768px) {
   .gallery__text {
-    font-size: 20px;
-    margin-bottom: 80px;
+    margin: 0 auto 80px auto;
+    max-width: 704px;
   }
+}
+
+.desc {
+  display: none;
 }
 
 @media only screen and (min-width: 1336px) {
   .gallery__text {
     font-weight: 500;
-    margin-bottom: 80px;
+    margin: 0 auto 80px auto;
+    max-width: none;
+  }
+  .desc {
+    display: inline;
   }
 }
 
