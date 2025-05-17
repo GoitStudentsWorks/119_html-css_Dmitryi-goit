@@ -1,0 +1,108 @@
+.footer{
+background-color: #DFEBEB;
+padding: 48px 0;
+}
+
+.footer-container {
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    border-radius: 16px;
+    padding: 32px;
+    width: 343px;
+    background-color: #F8FBFE;
+    }
+
+    .footer-logo {
+        margin-bottom: 20px;
+    }
+
+    .footer-text-info{
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 20px;    
+    }
+
+    .footer-email-field{
+        border: 1px solid rgba(255, 255, 255, 0);
+        border-radius: 12px;
+        padding: 8px 12px;            
+        height: 42px;
+        width: 279px;
+        background-color: rgba(13, 11, 10, 0.05);
+        margin-bottom: 16px;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.6;           
+    }
+
+    .footer-btn {
+        border: 1px solid rgba(255, 255, 255, 0);
+        background-color: rgba(13, 11, 10, 0.05);
+        border-radius: 100px;
+        padding: 10px 24px;
+        width: 279px;
+        height: 46px;
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 12px;
+    }
+
+    .footer-text-confirm{
+        font-weight: 400;
+        font-family: 'Sarabun', sans-serif;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 1.6;
+        margin-bottom: 0;
+    }
+
+    .footer-subscribe{
+        margin-bottom: 48px;
+    }
+
+    .footer-title{
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 1.6;
+        margin-bottom: 12px;
+    }
+
+    .footer-link-list{
+        padding: 8px 0;
+    }
+
+    .footer-links {
+        margin-bottom: 40px;
+    }
+
+    .footer-social-text{
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .footer-social-list {
+        padding: 8px 0px;
+        width: 279px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .footer-copyrights {
+        font-family: 'Sarabun', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.6;
+        margin-bottom: 32px;
+    }
+
+    .footer-div-social {
+        margin-bottom: 48px;
+    }
