@@ -1,0 +1,228 @@
+/* restyling*/
+:root {
+  --font-family: 'Sarabun', sans-serif;
+  --second-family: 'Cabin', sans-serif;
+  --third-family: 'Roboto', sans-serif;
+}
+.pricing-title p {
+  font-family: 'Sarabun';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 150%;
+}
+.pricing-title-head h2 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+}
+.pricing-title-head p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+}
+.pricing-plan-list-content p {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 140%;
+  letter-spacing: 0.01em;
+}
+.pricing-plan-list-content h3 {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 44px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+}
+.pricing-plan-advantage-list {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 160%;
+  font-family: 'Sarabun';
+}
+.pricing-plan-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 160%;
+}
+/* section*/
+button {
+  order: 1;
+  font-family: 'Sarabun';
+}
+.pricing-section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  background-color: #f8fbfe;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.pricing-title {
+  text-align: center;
+}
+.pricing-title-head {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.pricing-content {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.pricing-plan {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+}
+.pricing-plan-list {
+  background-color: #dfebeb;
+  border-radius: 16px;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.pricing-plan-list-content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.pricing-plan-advantage {
+  padding: 8px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+.pricing-plan-advantage-list {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+.card-three-leftpart {
+  display: flex;
+  flex-direction: column;
+}
+.pricing-plan-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #c2d9fc;
+  margin-top: 8px;
+  border-radius: 100px;
+  height: 46px;
+  width: 100%;
+  background-color: #c2d9fc;
+}
+/* MEDIA START */
+@media only screen and (min-width: 768px) {
+  /*restyling part*/
+  .pricing-plan-list-content h3 {
+    font-size: 72px;
+  }
+  .pricing-plan-list-content p {
+    font-size: 22px;
+  }
+  .pricing-title-head p {
+    font-size: 18px;
+  }
+
+  /*section part*/
+  .pricing-section {
+    display: flex;
+  }
+  .container {
+    width: 100%;
+    gap: 24px;
+  }
+  .pricing-title-head {
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .pricing-content {
+    max-width: 100%;
+  }
+  .pricing-plan {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
+  }
+  .card-three-rightpart {
+    order: 2;
+  }
+  .card-three-button {
+    order: 1;
+  }
+  .pricing-plan-list {
+    width: 340px;
+  }
+
+  .card-three {
+    padding: 86px 16px;
+    width: 704px;
+    display: grid;
+    gap: 32px;
+    row-gap: 24px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    flex-direction: row;
+    align-items: center;
+  }
+  .card-three-leftpart {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+  .card-three-button {
+    grid-area: 2 / 1 / 3 / 2;
+  }
+  .card-three-rightpart {
+    grid-area: 1 / 2 / 3 / 3;
+  }
+}
+
+@media only screen and (min-width: 1336px) {
+  .pricing-title-head h2 {
+    font-size: 52px;
+  }
+  .pricing-content {
+    width: 100%;
+  }
+  .pricing-plan {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    gap: 24px;
+    width: 1312px;
+  }
+  .pricing-plan-button {
+    margin-top: auto;
+  }
+  .pricing-plan-list {
+    padding: 32px 32px;
+    width: 421px;
+    height: 509px;
+  }
+  .card-three-rightpart {
+    order: initial;
+  }
+  .pricing-plan-advantage {
+    width: 357px;
+  }
+  .card-three {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}
