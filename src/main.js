@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-
-=======
-import './js/modal.js'
->>>>>>> origin/main
 import './js/header.js'
+import './js/modal.js'
+
