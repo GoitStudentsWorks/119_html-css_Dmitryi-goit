@@ -11,9 +11,14 @@
     background-color: #F8FBFE;
     }
 
-.footer-logo {
+.footer-div-logo {
+    margin-bottom: 20px;   
+}
+
+.footer-logo{
     margin-bottom: 20px;
 }
+
 
 .footer-text-info{
     font-family: 'Sarabun', sans-serif;
@@ -128,6 +133,11 @@
 
     }
     
+
+    .footer-div-logo {
+        margin-bottom: 24px;
+    }
+           
     .footer-logo {
         margin-bottom: 24px;
     }
