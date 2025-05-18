@@ -5,6 +5,7 @@
   --third-family: 'Roboto', sans-serif;
 }
 .pricing-title p {
+  font-family: 'Sarabun';
   font-weight: 600;
   font-size: 16px;
   line-height: 150%;
@@ -39,6 +40,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
+  font-family: 'Sarabun';
 }
 .pricing-plan-button {
   font-weight: 500;
@@ -48,6 +50,7 @@
 /* section*/
 button {
   order: 1;
+  font-family: 'Sarabun';
 }
 .pricing-section {
   padding-top: 64px;
