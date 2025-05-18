@@ -39,7 +39,14 @@
     font-family: 'Sarabun', sans-serif;
     font-weight: 400;
     font-size: 16px;
-    line-height: 1.6;           
+    line-height: 1.6; 
+             
+}
+
+.footer-input{
+    display: flex;
+    flex-direction: column;
+   
 }
 
 .footer-btn {
@@ -147,9 +154,14 @@
     }
     
     .footer-email-field {          
-        width: 546px;            
+        width: 546px;
+        margin-right: 16px;
     }
-    
+
+    .footer-input {            
+        flex-direction: row;   
+    }
+
     .footer-btn {
         width: 78px;            
     }       
