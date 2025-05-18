@@ -9,7 +9,7 @@
     padding: 40px 0;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
   .container-testimonials {
     padding: 112px 0;
   }
@@ -30,7 +30,7 @@
     margin-bottom: 24px;
   }
 }
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
   .title-testimonials {
     font-size: 52px;
   }
@@ -62,7 +62,7 @@
   justify-content: space-between;
 }
 
-@media screen and (min-width: 1158px) {
+@media screen and (min-width: 1336px) {
   .item-testimonials {
     width: calc((100% - 24px) / 2);
   }
