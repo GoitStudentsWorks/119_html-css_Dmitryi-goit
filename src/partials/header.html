@@ -26,8 +26,10 @@
         <a href="#pricing-plans" class="join-link">Join</a>
       </div>
     </nav>
-    <div class="mob-menu" is-open>
-        <div class="container mob-menu-div">
+    <!--Mobile menu-->
+    <div class="mob-menu">
+      <div class="mob-menu-container">
+        <div class="mob-menu-top">
           <button class="mob-menu-btn" type="button" data-menu-close>
             <svg class="menu-close-icon" width="24" height="24">
               <use href="/img/sprite.svg#icon-close"></use>
@@ -38,31 +40,21 @@
               <use href="/img/sprite.svg#icon-Company-Logo"></use>
             </svg>
           </div>
-          <div class="mob-link-section">
-            <a href="#pricing-plans" class="join-link">Join</a>
-          </div>
-          <nav class="mob-menu-nav">
-            <ul class="mob-menu-list">
-              <li class="mob-menu-item">
-                <a href="#hero-banner" class="mob-menu-link">Yoga Classes</a>
-              </li>
-              <li class="mob-menu-item">
-                <a href="#team" class="mob-menu-link">Team</a>
-              </li>
-              <li class="mob-menu-item">
-                <a href="#testimonials" class="mob-menu-link">Testimonials</a>
-              </li>
-              <li class="mob-menu-item">
-                <a href="#pricing-plans" class="mob-menu-link">Pricing</a>
-              </li>
-              <li class="mob-menu-item">
-                <a href="#footer" class="mob-menu-link">Contacts</a>
-              </li>
-            </ul>
-          </nav>
-          <div class="mob-join-section">
-            <a href="#pricing-plans" class="mob-join-link">Join</a>
+          <a href="#pricing-plans" class="join-link">Join</a>
         </div>
+        <nav class="mob-menu-nav">
+          <ul>
+            <li><a href="#hero-banner">Yoga Classes</a></li>
+            <li><a href="#team">Team</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#pricing-plans">Pricing</a></li>
+            <li><a href="#footer">Contacts</a></li>
+          </ul>
+        </nav>
+        <div class="mob-menu-bottom">
+          <a href="#pricing-plans" class="mob-join-link">Join</a>
         </div>
+      </div>
+    </div>
   </div>
 </header>
