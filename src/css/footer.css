@@ -90,11 +90,18 @@
 }
 
 .footer-social-list {
-    padding: 8px 0px;
+    
     width: 279px;
     display: flex;
+    flex-direction: column;
+   
+    
+}
+.footer-social-link{
+    display: inline-flex;
     align-items: center;
     gap: 12px;
+    padding: 9px 0;
 }
 
 .footer-copyrights {
@@ -150,7 +157,7 @@
     }    
 
     .footer-social-list {
-        padding: 9px 0px;
+        
         width: 300px;           
     }
 
