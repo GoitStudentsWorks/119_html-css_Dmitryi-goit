@@ -1,178 +1,266 @@
 /*hero*/
+
 .hero {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .hero-background img {
-    background-image: 
-    url('/src/img/hero/hero-desk-min.jpg');
-    width: 100%;
-    height: auto;
-    display: block;
-  }
-  
-  .hero-content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .hero-text {
-    padding: 80px 64px;
-    width: 1440px;
-    height: 418px;
-  }
-  
-  .hero-title {
-    font: 400 72px / 1.2 "Cabin", sans-serif;
-    letter-spacing: 0.01em;
-    color: #0d0b0a;
-    margin-bottom: 24px;
-  }
-  
-  .hero-description {
-    font: 400 18px / 1.6 "Sarabun", sans-serif;
-    color: #0d0b0a;
-    margin-bottom: 32px;
-  }
-  
-  .hero-buttons {
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 16px;
-  }
-  
-  .btn {
-    font: 500 16px / 1.6 "Sarabun", sans-serif;
-    color: #0d0b0a;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-    border-radius: 100px;
-    padding: 10px 24px;
-    gap: 8px;
-  }
-  
-  .btn-primary {
-    border: 1px solid #c2d9fc;
-    width: 113px;
-    height: 46px;
-  }
-  
-  .btn-secondary {
-    border: 1px solid rgba(255, 255, 255, 0);
-    width: 128px;
-    height: 46px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 
-/*media*/
- @media (max-width: 1440px) {
-  .hero-text {
-    width: 100%;
-    padding: 80px 48px;
+.hero-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+  filter: brightness(0.7);
+}
+
+.hero-inner {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  max-width: 1440px;
+  height: 418px;
+  background: #f2fafa;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 64px;
+  box-sizing: border-box;
+}
+
+/* ліва сорона - заголовок */
+.hero-left {
+  max-width: 644px;
+}
+
+.hero-title {
+  font: 400 72px/1.2 "Cabin", sans-serif;
+  letter-spacing: 0.01em;
+  color: #0d0b0a;
+}
+
+/* права сторона + кнопки */
+.hero-right {
+  max-width: 641px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-description {
+  font: 400 18px/1.6 "Sarabun", sans-serif;
+  color: #0d0b0a;
+}
+
+.hero-buttons {
+  width: 257px;
+  display: flex;
+  gap: 16px;
+}
+
+/* кнопки */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  cursor: pointer;
+  text-decoration: none;
+  font: 400 16px "Sarabun", sans-serif;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+  border: 1px solid #c2d9fc;
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 113px;
+  height: 46px;
+  background-color: transparent;
+  color: #0d0b0a;
+}
+
+.btn-primary:hover {
+  background-color: #c2d9fc;
+}
+
+.btn-secondary {
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 100px;
+  padding: 10px 24px;
+  width: 128px;
+  height: 46px;
+  background-color: transparent;
+  color: #0d0b0a;
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0;
+}
+
+ @media (max-width: 1024px) {
+.hero-title {
+font-size: 56px;
+}
+
+.hero-inner {
+padding: 60px 40px;
+ }
+}
+
+@media (max-width: 768px) {
+.hero {
+height: auto;
+min-height: 100vh;
+align-items: center;
+}
+
+.hero-inner {
+ position: relative;
+background: rgba(242, 250, 250, 0.9);
+ margin: 40px;
+ border-radius: 12px;
+ padding: 40px 32px;
+}
+
+.hero-title {
+ font-size: 48px;
+line-height: 1.1;
+}
+
+.hero-description {
+ font-size: 16px;
+}
+
+.hero-buttons {
+flex-direction: column;
+}
+
+.btn {
+width: 100%;
+justify-content: flex-start;
+}
+}
+
+/* Mobile (480px) */
+@media (max-width: 480px) {
+.hero-inner {
+flex-direction: column;
+padding: 48px 16px;
+width: 375px;
+}
+
+.hero-title {
+font: 400 44px / 1.2 "Cabin", sans-serif;
+letter-spacing: 0.01em;
+color: #0d0b0a;
+}
+
+.hero-description {
+font: 400 16px / 1.6 "Sarabun", sans-serif;
+color: #0d0b0a;
+}
+
+.btn {
+font: 500 16px / 1.6 "Sarabun", sans-serif;
+color: #0d0b0a;
+padding: 10px 24px;
+width: 329px;
+}
+
+.btn-part {
+display: none;
+}
+}
+
+@media (max-width: 768px) {
+  .btn-part {
+    display: none;
   }
 }
 
+/* респонсивне зображення */
 @media (max-width: 1024px) {
-
-    .hero-background img {
-    background-image: url('/src/img/hero/hero-tab-min.jpg');
-}
-
-  .hero-text {
-    padding: 64px 40px;
-    height: auto;
-  }
-  
-  .hero-title {
-    font-size: 56px;
-  }
-  
-  .hero-description {
-    font-size: 16px;
+  .hero-background img {
+    content: url('/src/img/hero/hero-tab-min.jpg');
+    object-position: center 30%;
   }
 }
 
 @media (max-width: 768px) {
   .hero-background img {
-    content: url('/src/img/hero/hero-tab-min.jpg');}
-
-  .hero-text {
-    padding: 48px 32px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  .hero-title {
-    font-size: 48px;
-  }
-  
-  .hero-description {
-    max-width: 100%;
-  }
-  
-  .hero-buttons {
-    justify-content: center;
+    content: url('/src/img/hero/hero-tab-min.jpg');
+    object-position: center 20%;
   }
 }
 
 @media (max-width: 480px) {
+  .hero-background img {
+    content: url('/src/img/hero/hero-mob-min.jpg');
+    object-position: center 15%;
+  }
+}
 
-.hero-background img {
-    content: url('/src/img/hero/hero-mob-min.jpg');}
-  .hero-text {
-    padding: 40px 24px;
-  }
-  
-.hero-title {
-    font-size: 36px;
-    margin-bottom: 16px;
-  }
-  
-.hero-description {
-    font-size: 15px;
-    margin-bottom: 24px;
-  }
-  
-.hero-buttons {
-    flex-direction: column;
-    width: 100%;
-    gap: 12px;
-  }
-}   
-
+/* retina */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .hero-background img {
     content: url('/src/img/hero/hero-desk@2x-min.jpg');
   }
-  
+
   @media (max-width: 1024px) {
     .hero-background img {
       content: url('/src/img/hero/hero-tab@2x-min.jpg');
     }
   }
-  
+
   @media (max-width: 768px) {
     .hero-background img {
       content: url('/src/img/hero/hero-tab@2x-min.jpg');
     }
   }
-  
+
   @media (max-width: 480px) {
     .hero-background img {
       content: url('/src/img/hero/hero-mob@2x-min.jpg');
     }
+  }
+}
+
+/* responsive */
+@media (max-width: 1024px) {
+  .hero-inner {
+    flex-direction: column;
+    height: auto;
+    gap: 24px;
+  }
+
+  .hero-left,
+  .hero-right {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .hero-buttons {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-inner {
+  padding: 24px 32px;
+  width: 768px;  
+  }
+
+  .hero-title {
+  font: 400 72px / 1.2 "Cabin", sans-serif;
+  letter-spacing: 0.01em;
+  color: #0d0b0a;
+  }
+
+  .hero-buttons {
+  justify-content: flex-start;
   }
 }
