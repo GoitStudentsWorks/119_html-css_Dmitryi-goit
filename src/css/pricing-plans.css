@@ -21,6 +21,7 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 160%;
+  margin-bottom: 48px;
 }
 .pricing-plan-list-content p {
   font-family: var(--second-family);
@@ -53,15 +54,9 @@ button {
   font-family: 'Sarabun';
 }
 .pricing-section {
-  padding-top: 64px;
-  padding-bottom: 64px;
   background-color: #f8fbfe;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
-}
+
 .pricing-title {
   text-align: center;
 }
@@ -134,16 +129,14 @@ button {
   }
   .pricing-title-head p {
     font-size: 18px;
+    margin-bottom: 24px;
   }
 
   /*section part*/
   .pricing-section {
     display: flex;
   }
-  .container {
-    width: 100%;
-    gap: 24px;
-  }
+  
   .pricing-title-head {
     margin-top: 16px;
     display: flex;
@@ -196,6 +189,9 @@ button {
   .pricing-title-head h2 {
     font-size: 52px;
   }
+    .pricing-title-head p{
+      margin-bottom: 40px;
+    }
   .pricing-content {
     width: 100%;
   }
