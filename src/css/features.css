@@ -123,6 +123,8 @@
     border: none;
 }
 
+/* MEDIA TAB */
+
 
 @media screen and (min-width:768px) {
 
@@ -210,6 +212,8 @@
     }
 
 }
+
+/* MEDIA DESK */
 
 
 @media screen and (min-width:1336px) {
