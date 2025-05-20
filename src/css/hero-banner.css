@@ -66,12 +66,14 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
+  
 }
 
 @media screen and (min-width: 768px) {
   .hero-inner {
+  align-items: flex-start;
   gap: 8px;
   }
 }
@@ -157,6 +159,7 @@ margin-right: 24px;
 @media screen and (min-width: 768px) {
   .hero-buttons {
     flex-direction: row;
+    margin: 0;
   }
 }
 
