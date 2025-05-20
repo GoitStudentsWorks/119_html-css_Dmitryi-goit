@@ -1,7 +1,6 @@
 /*hero*/
 
 .hero {
-  background-color:#f2fafa;
   width: 100%;
   overflow: hidden;
 }
@@ -57,7 +56,7 @@
 
 @media screen and (min-width: 1336px) {
   .hero-content {
-    max-width: 1336px;
+    max-width: 1440px;
     padding: 80px 64px;
   }
 }
@@ -81,6 +80,7 @@
 @media screen and (min-width: 1336px) {
 .hero-inner {
 flex-direction: row;
+gap: 24px;
 }
 }
 
@@ -177,14 +177,14 @@ margin-right: 24px;
 }
 
 .btn-primary {
-  /*
-  border: 1px solid #c2d9fc;
-  */
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 100px;
   width: 113px;
   height: 46px;
+  background-color: #c2d9fc;
+
   background-color: #c2d9fc;;
+
   color: #0d0b0a;
   width: 329px;
 }
@@ -214,7 +214,11 @@ margin-right: 24px;
   border-radius: 100px;
   width: 128px;
   height: 46px;
+
+  background-color: rgba(13, 11, 10, 0.05);
+
   background-color: rgba(13, 11, 10, 0.05);;
+
   color: #0d0b0a;
   width: 329px;
 }
