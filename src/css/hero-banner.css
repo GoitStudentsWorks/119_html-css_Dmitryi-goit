@@ -1,11 +1,44 @@
 /*hero*/
 
 .hero {
-  position: relative;
   width: 100%;
   overflow: hidden;
 }
 
+.hero-background {
+  width: 100%;
+  min-height: 301px;
+  background-image: image-set(
+      url(../img/hero/header-background-img-mobile.png) 1x,
+      url(../img/hero/header-background-img-mobile@2x.png) 2x
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .hero-background {
+  min-height: 359px;
+  background-image: image-set(
+      url(../img/hero/header-background-img-tablet.png) 1x,
+      url(../img/hero/header-background-img-tablet@2x.png) 2x
+    );
+  }
+}
+
+@media screen and (min-width:1336px) {
+  .hero-background {
+  min-height: 684px;
+  background-image: image-set(
+      url(../img/hero/header-background-img-desktop.png) 1x,
+      url(../img/hero/header-background-img-desktop@2x.png) 2x
+    );
+}
+}
+
+/*
 .hero-background img {
   width: 100%;
   height: 100%;
@@ -14,11 +47,9 @@
   display: block;
   filter: brightness(0.7);
 }
+*/
 
 .hero-inner {
-  position: absolute;
-  bottom: 0;
-  left: 0;
   width: 100%;
   max-width: 1440px;
   height: 418px;
