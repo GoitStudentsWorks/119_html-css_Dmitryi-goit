@@ -14,7 +14,8 @@
 
 .container-features {
     background-color: #dfebeb;
-    padding: 64px 16px;
+    padding-top: 64px;
+    padding-bottom: 64px;
 }
 
 .features-name-wrapper{
@@ -131,7 +132,8 @@
 @media screen and (min-width:768px) {
 
     .container-features {
-        padding: 40px 32px;
+        padding-top: 40px;
+        padding-bottom: 40px;
         background-color: #f2fafa;
     }
 
@@ -225,7 +227,8 @@
     }
 
     .container-features {
-        padding: 112px 64px;
+        padding-top: 112px;
+        padding-bottom: 112px;
     }
 
     .features-name-wrapper{
