@@ -173,14 +173,11 @@ line-height: 1.6;
 }
 
 .btn-primary {
-  /*
-  border: 1px solid #c2d9fc;
-  */
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 100px;
   width: 113px;
   height: 46px;
-  background-color: transparent;
+  background-color: #c2d9fc;
   color: #0d0b0a;
   width: 329px;
 }
@@ -210,7 +207,7 @@ line-height: 1.6;
   border-radius: 100px;
   width: 128px;
   height: 46px;
-  background-color: transparent;
+  background-color: rgba(13, 11, 10, 0.05);
   color: #0d0b0a;
   width: 329px;
 }
