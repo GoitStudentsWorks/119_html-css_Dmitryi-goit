@@ -6,13 +6,18 @@
 }
 body {
     background-color: #f2fafa;
+    overflow-x: hidden;
 }
-.container {
+.header-container {
     max-width: 375px;
     padding: 0 20px;
     margin: 0 auto;
 }
 /* Header */
+.page-header{
+    padding: 0;
+    margin-bottom: 0;
+}
 .header-nav {
     display: flex;
     align-items: center;
@@ -115,7 +120,7 @@ body {
 }
 /* Tablet */
 @media (min-width: 768px) {
-    .container {
+    .header-container {
         max-width: 768px;
         padding: 0 32px;
     }
@@ -139,7 +144,7 @@ body {
 }
 /* Desktop */
 @media (min-width: 1336px) {
-    .container {
+    .header-container {
         max-width: 1336px;
         padding: 0 64px;
     }
