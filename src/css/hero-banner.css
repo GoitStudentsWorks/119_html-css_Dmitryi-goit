@@ -8,7 +8,7 @@
 
 .hero-background {
   width: 100%;
-  min-height: 301px;
+  height: 301px;
   background-image: image-set(
       url(../img/hero/header-background-img-mobile.png) 1x,
       url(../img/hero/header-background-img-mobile@2x.png) 2x
@@ -22,7 +22,7 @@
 
 @media screen and (min-width: 768px) {
   .hero-background {
-  min-height: 359px;
+  height: 359px;
   background-image: image-set(
       url(../img/hero/header-background-img-tablet.png) 1x,
       url(../img/hero/header-background-img-tablet@2x.png) 2x
@@ -33,7 +33,7 @@
 
 @media screen and (min-width:1336px) {
   .hero-background {
-  min-height: 684px;
+  height: 684px;
   background-image: image-set(
       url(../img/hero/header-background-img-desktop.png) 1x,
       url(../img/hero/header-background-img-desktop@2x.png) 2x
@@ -61,17 +61,6 @@
     padding: 80px 64px;
   }
 }
-
-/*
-.hero-background img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  display: block;
-  filter: brightness(0.7);
-}
-*/
 
 .hero-inner {
   display: flex;
@@ -156,8 +145,6 @@ line-height: 1.6;
 .hero-buttons {
   display: flex;
   flex-direction: column;
-  width: 257px;
-  display: flex;
   gap: 16px;
 }
 
@@ -177,35 +164,80 @@ line-height: 1.6;
   text-decoration: none;
   font: 400 16px "Sarabun", sans-serif;
   transition: background-color 0.3s ease;
+  padding: 0;
 }
 
 .btn-primary {
+  /*
   border: 1px solid #c2d9fc;
+  */
+  border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 100px;
-  padding: 10px 24px;
   width: 113px;
   height: 46px;
   background-color: transparent;
   color: #0d0b0a;
-  background-color: #c2d9fc;
+  width: 329px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-primary {
+    width: 144px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .btn-primary {
+    width: 113px;
+  }
 }
 
 .btn-primary:hover {
-  background-color: #c2d9fc;
+  background-color: #e0e0e0;
+}
+
+.btn-primary:focus {
+  background-color:  #c2d9fc;
 }
 
 .btn-secondary {
   border: 1px solid rgba(255, 255, 255, 0);
   border-radius: 100px;
-  padding: 10px 24px;
   width: 128px;
   height: 46px;
   background-color: transparent;
   color: #0d0b0a;
+  width: 329px;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-secondary {
+    width: 144px;
+  }
+}
+
+@media screen and (min-width: 1336px) {
+  .btn-secondary {
+    width: 128px;
+  }
+}
+
+.btn-part {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-part {
+    display: inline;
+  }
 }
 
 .btn-secondary:hover {
   background-color: #e0e0e0;
+}
+
+.btn-secondary:focus {
+  background-color:  #c2d9fc;
 }
 
 
