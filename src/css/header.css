@@ -39,6 +39,7 @@ body {
     margin-left: auto;
 }
 .join-link {
+    font-family: "Sarabun", sans-serif;
     background: #c2d9fc;
     color: #0D0B0A;
     border: 1px solid #c2d9fc;
