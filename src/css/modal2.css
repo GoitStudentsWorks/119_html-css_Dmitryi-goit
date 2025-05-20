@@ -61,6 +61,14 @@
         
     }
 }
+@media only screen and (min-width:1336px) {
+    .modal-two {
+        min-width: 768px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 .close-btn {
     border: none;

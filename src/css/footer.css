@@ -1,0 +1,232 @@
+.footer{
+    background-color: #DFEBEB;
+    padding: 48px 0;
+    }
+
+.footer-container {
+    border: 0px solid rgba(13, 11, 10, 0.15);
+    border-radius: 16px;
+    padding: 32px;
+    width: 343px;
+    background-color: #F8FBFE;
+    }
+
+.footer-div-logo {
+    margin-bottom: 20px;   
+}
+
+.footer-logo{
+    margin-bottom: 20px;
+}
+
+
+.footer-text-info{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;    
+}
+
+.footer-email-field{
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-radius: 12px;
+    padding: 8px 12px;            
+    height: 42px;
+    width: 279px;
+    background-color: rgba(13, 11, 10, 0.05);
+    margin-bottom: 16px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.6; 
+             
+}
+
+.footer-input{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.footer-btn {
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: rgba(13, 11, 10, 0.05);
+    border-radius: 100px;
+    padding: 10px 24px;
+    width: 279px;
+    height: 46px;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;  
+    color: #0d0b0a;
+}
+
+
+
+.footer-text-confirm{
+    font-weight: 400;
+    font-family: 'Sarabun', sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-subscribe{
+    margin-bottom: 48px;
+}
+
+.footer-title{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+.footer-link-list{
+    padding: 9px 0;
+}
+
+.footer-links {
+    margin-bottom: 40px;
+}
+
+.footer-social-text{
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.footer-social-list {
+    
+    width: 279px;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+.footer-social-link{
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 0;
+}
+
+.footer-copyrights {
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+   
+}
+
+.footer-div-social {
+    margin-bottom: 48px;
+}
+
+@media screen and (min-width: 768px){
+
+    .footer {   
+        padding: 40px 0;
+    }
+
+    .footer-container {           
+        width: 704px; 
+        padding: 40px 32px;
+
+    }
+    
+
+    .footer-div-logo {
+        margin-bottom: 24px;
+    }
+           
+    .footer-logo {
+        margin-bottom: 24px;
+    }
+
+    .footer-text-info {                           
+        margin-bottom: 24px;
+    }
+    
+    .footer-email-field {          
+        width: 546px;
+        margin-right: 16px;
+    }
+
+    .footer-input {            
+        flex-direction: row;   
+    }
+
+    .footer-btn {
+        width: 78px;            
+    }       
+    
+    .footer-subscribe {
+        margin-bottom: 40px;
+    }
+    
+    .footer-title {           
+        margin-bottom: 16px;
+    }    
+    
+    .footer-links {
+        margin-bottom: 0;
+    }    
+
+    .footer-social-list {
+        
+        width: 300px;           
+    }
+
+   
+
+    .footer-div-links{
+        display: flex;
+        justify-content: space-between;               
+        align-items: flex-start;                
+        gap: 40px;                
+        flex-wrap: wrap;
+        margin-bottom: 48px;
+    }
+}
+
+
+
+@media screen and (min-width: 1336px){
+    .footer {
+            padding: 64px 0;
+        }
+    
+        .footer-container {
+            width: 1312px;
+            display: flex; 
+            padding: 48px;                     
+            flex-wrap: wrap;
+            justify-content: space-between;         
+        }       
+      
+        .footer-email-field {
+            width: 501px;
+        }        
+    
+        .footer-subscribe {
+            margin-bottom: 24px;
+            margin-right: 250px;
+        }         
+    
+        .footer-social-list {           
+            width: 165px;
+        }
+    
+       
+    
+
+
+
+}
