@@ -6,21 +6,21 @@
 .team-container {
   color: #0d0b0a;
   width: 100%;
-  padding: 64px 16px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
 @media screen and (min-width: 768px) {
   .team-container {
     max-width: 768px;
-    padding: 40px 32px;
+    padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1336px) {
   .team-container{
     max-width: 1336px;
-    padding: 112px 64px;
+    padding: 0 64px;
   }
 }
 

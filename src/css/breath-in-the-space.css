@@ -1,16 +1,16 @@
 .gallery__container {
-  padding: 64px 20px;
+  padding: 0 20px;
 }
 
 @media screen and (min-width: 768px) {
   .gallery__container {
-    padding: 40px 32px;
+    padding: 0 32px;
   }
 }
 
 @media screen and (min-width: 1336px) {
   .gallery__container {
-    padding: 112px 64px;
+    padding: 0 64px;
   }
 }
 

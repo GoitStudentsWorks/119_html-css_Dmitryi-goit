@@ -9,8 +9,8 @@
   width: 100%;
   height: 301px;
   background-image: image-set(
-      url(../img/hero/header-background-img-mobile.png) 1x,
-      url(../img/hero/header-background-img-mobile@2x.png) 2x
+      url(/img/hero/header-background-img-mobile.png) 1x,
+      url(/img/hero/header-background-img-mobile@2x.png) 2x
     );
   object-position: center 15%;
   background-repeat: no-repeat;
@@ -23,8 +23,8 @@
   .hero-background {
   height: 359px;
   background-image: image-set(
-      url(../img/hero/header-background-img-tablet.png) 1x,
-      url(../img/hero/header-background-img-tablet@2x.png) 2x
+      url(/img/hero/header-background-img-tablet.png) 1x,
+      url(/img/hero/header-background-img-tablet@2x.png) 2x
     );
   object-position: center 20%;
   }
@@ -34,8 +34,8 @@
   .hero-background {
   height: 684px;
   background-image: image-set(
-      url(../img/hero/header-background-img-desktop.png) 1x,
-      url(../img/hero/header-background-img-desktop@2x.png) 2x
+      url(/img/hero/header-background-img-desktop.png) 1x,
+      url(/img/hero/header-background-img-desktop@2x.png) 2x
     );
     object-position: center 30%;
 }
@@ -102,15 +102,18 @@ gap: 24px;
 }
 
 .hero-title {
-font-weight: 400;
-font-size: 44px;
-line-height: 1.2;
-letter-spacing: 0.01em;
+    font-family: "Cabin", sans-serif;
+        font-weight: 400;
+        font-size: 44px;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        color: #0d0b0a;
 }
 
 @media screen and (min-width: 1336px) {
 .hero-title {
 font-size: 72px;
+margin-right: 24px;
 }
 }
 
@@ -133,9 +136,11 @@ font-size: 72px;
 }
 
 .hero-description {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.6;
+    font-family: "Sarabun", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 160%;
+        color: #0d0b0a;
 }
 
 @media screen and (min-width: 768px) {
@@ -177,6 +182,9 @@ line-height: 1.6;
   width: 113px;
   height: 46px;
   background-color: #c2d9fc;
+
+  background-color: #c2d9fc;;
+
   color: #0d0b0a;
   width: 329px;
 }
@@ -206,7 +214,11 @@ line-height: 1.6;
   border-radius: 100px;
   width: 128px;
   height: 46px;
+
   background-color: rgba(13, 11, 10, 0.05);
+
+  background-color: rgba(13, 11, 10, 0.05);;
+
   color: #0d0b0a;
   width: 329px;
 }
