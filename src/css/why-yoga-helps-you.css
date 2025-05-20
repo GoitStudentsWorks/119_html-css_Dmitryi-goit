@@ -1,7 +1,9 @@
 .why-yoga-help-section {
     background: #dfebeb;
 }
-
+.yoga-container{
+    padding: 64px 16px;
+}
 .title-why-yoga-help {
     font-weight: 400;
     font-size: 40px;

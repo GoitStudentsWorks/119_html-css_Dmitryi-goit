@@ -4,16 +4,16 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
-  
+  overflow-x: hidden;
 }
 
 main {
   flex-grow: 1;
 }
 
-section{
+/*section{
   padding: 64px 0;
-}
+}*/
 @media screen and (min-width:768px){
 section{
   padding: 40px 0;

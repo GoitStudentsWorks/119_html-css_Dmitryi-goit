@@ -4,6 +4,12 @@
   --second-family: 'Cabin', sans-serif;
   --third-family: 'Roboto', sans-serif;
 }
+.icon-check{
+  fill: #0d0b0a;
+}
+.pricing-container{
+  padding: 64px 16px;
+}
 .pricing-title p {
   font-family: 'Sarabun';
   font-weight: 600;

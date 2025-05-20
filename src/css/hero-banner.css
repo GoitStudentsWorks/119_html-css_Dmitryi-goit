@@ -3,6 +3,7 @@
 .hero {
   width: 100%;
   overflow: hidden;
+  padding-top: 0;
 }
 
 .hero-background {
@@ -28,6 +29,7 @@
     );
   object-position: center 20%;
   }
+  
 }
 
 @media screen and (min-width:1336px) {
@@ -50,17 +52,15 @@
 @media screen and (min-width: 768px) {
   .hero-content {
     max-width: 768px;
-     padding: 24px 32px;
+    padding: 24px 32px;
   }
 }
-
 @media screen and (min-width: 1336px) {
   .hero-content {
     max-width: 1440px;
     padding: 80px 64px;
   }
 }
-
 .hero-inner {
   display: flex;
   flex-direction: column;
