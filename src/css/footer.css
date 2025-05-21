@@ -43,7 +43,7 @@
              
 }
 
-.footer-input{
+.footer-form{
     display: flex;
     flex-direction: column;
    
@@ -159,7 +159,7 @@
         margin-right: 16px;
     }
 
-    .footer-input {            
+    .footer-form {            
         flex-direction: row;   
     }
 
@@ -208,7 +208,7 @@
             display: flex; 
             padding: 48px;                     
             flex-wrap: wrap;
-            justify-content: space-between;         
+                    
         }       
       
         .footer-email-field {
@@ -225,8 +225,4 @@
         }
     
        
-    
-
-
-
 }
