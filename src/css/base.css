@@ -5,6 +5,7 @@ body {
   min-height: 100vh;
   margin: 0;
   overflow-x: hidden;
+  font-family: 'Sarabun', sans-serif;
 }
 
 main {
@@ -14,14 +15,13 @@ main {
 /*section{
   padding: 64px 0;
 }*/
-@media screen and (min-width:768px){
-section{
-  padding: 40px 0;
-
+@media screen and (min-width: 768px) {
+  section {
+    padding: 40px 0;
+  }
 }
-}
-@media screen and (min-width:1336px){
-  section{
+@media screen and (min-width: 1336px) {
+  section {
     padding: 112px 0;
   }
 }
