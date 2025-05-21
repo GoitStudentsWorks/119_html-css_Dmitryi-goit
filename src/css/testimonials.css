@@ -1,26 +1,7 @@
-.container-testimonials {
-  max-width: 375px;
-  padding: 64px 16px;
-  margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) {
-  .container-testimonials {
-    max-width: 768px;
-    padding: 0 32px;
-  }
-}
-
-@media screen and (min-width: 1336px) {
-  .container-testimonials {
-    max-width: 1336px;
-    padding: 0 64px;
-  }
-}
-
 .section-testimonials {
   background-color: #f2fafa;
 }
+
 .title-testimonials {
   font-family: 'Cabin', sans-serif;
   font-weight: 400;
@@ -71,7 +52,12 @@
 
 @media screen and (min-width: 1336px) {
   .item-testimonials {
-    width: calc((100% - 24px) / 2);
+  }
+  .list-testimonials {
+    display: grid;
+    grid-template-columns: repeat(2, 644px);
+    justify-content: center;
+    gap: 24px;
   }
 }
 .text-rev {
