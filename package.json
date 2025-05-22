@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/OmniDev/",
+    "build": "vite build --base=/119_html-css_Dmitryi-goit/",
     "preview": "vite preview"
   },
   "devDependencies": {
